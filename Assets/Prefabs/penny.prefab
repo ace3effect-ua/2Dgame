@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3882844935279623555}
   - component: {fileID: 3882844935279623556}
   - component: {fileID: 725190711493652268}
+  - component: {fileID: 2153881738397486464}
   m_Layer: 0
   m_Name: penny
   m_TagString: Untagged
@@ -117,5 +118,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30f6be90709594bf7ab1d19a3d8de6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2153881738397486464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882844935279623552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b537533b2234f73ae0963e89174f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
