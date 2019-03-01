@@ -42,7 +42,7 @@ public class gameBoard : MonoBehaviour
     void makePiece(int x, int y){
 
         //bool isPenny = (y > 1) ? false : true;weird if statement
-        GameObject go = Instantiate(pennyPrefab)as GameObject; // another weird if statement
+        GameObject go = Instantiate(pennyPrefab)as GameObject;
         go.transform.SetParent(transform);
         Piece p = go.GetComponent<Piece>();
         pieces[x,y] = p;
@@ -51,7 +51,7 @@ public class gameBoard : MonoBehaviour
     void makeDime(int x, int y){
 
         //bool isPenny = (y > 1) ? false : true; weird if statement
-        GameObject go = Instantiate(dimePrefab) as GameObject; // another weird if statement
+        GameObject go = Instantiate(dimePrefab) as GameObject;
         go.transform.SetParent(transform);
         Piece p = go.GetComponent<Piece>();
         pieces[x,y] = p;
