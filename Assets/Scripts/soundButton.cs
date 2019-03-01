@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class soundButton : MonoBehaviour
 {
     public AudioMixer mixer;
-    public Image buttonImage;
+    public SpriteRenderer buttonImage;
 
     public Sprite muteSprite;
     public Sprite unmuteSprite;
@@ -18,9 +18,11 @@ public class soundButton : MonoBehaviour
         
         off = !off;
         if (off == false){
+            buttonImage.sprite=unmuteSprite;
             mixer.SetFloat("Master", 0.0f);  
         }
         else{
+            buttonImage.sprite = muteSprite;
             mixer.SetFloat("Master", -80.0f);
         }
         //mixer.SetFloat("Music", 0.0f);
