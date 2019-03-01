@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 4c5a2d9fa8f774c8ba40334600ba1b22, type: 2}
-  buttonImage: {fileID: 0}
+  buttonImage: {fileID: 429136749}
   muteSprite: {fileID: 21300000, guid: 9668aa50e10074e478fac2680fd16caa, type: 3}
   unmuteSprite: {fileID: 21300000, guid: f4e5bbc8252859846bf8fa48c50e4b97, type: 3}
 --- !u!1 &496819528
@@ -2145,6 +2145,8 @@ MonoBehaviour:
     type: 3}
   dimePrefab: {fileID: 3669768737089911695, guid: 4edd76da32f3f43b799ba530a2c2c88b,
     type: 3}
+  pennyKingPinPrefab: {fileID: 0}
+  dimeKingPinPrefab: {fileID: 0}
 --- !u!1001 &3470458852430018803
 PrefabInstance:
   m_ObjectHideFlags: 0
