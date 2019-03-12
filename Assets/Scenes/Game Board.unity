@@ -2650,6 +2650,12 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4693634016447106219, guid: 645de7592aa9c6b42a4db7084d93a20b,
+        type: 3}
+      propertyPath: explosionParticle
+      value: 
+      objectReference: {fileID: 1424479989399107431, guid: 648bdf6ff943243bdb76b6997d120dfd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 645de7592aa9c6b42a4db7084d93a20b, type: 3}
 --- !u!1001 &1414280548
@@ -4579,6 +4585,12 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4693634016447106219, guid: 645de7592aa9c6b42a4db7084d93a20b,
+        type: 3}
+      propertyPath: explosionParticle
+      value: 
+      objectReference: {fileID: 1424479989399107431, guid: 648bdf6ff943243bdb76b6997d120dfd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 645de7592aa9c6b42a4db7084d93a20b, type: 3}
 --- !u!1001 &8225398442228737070

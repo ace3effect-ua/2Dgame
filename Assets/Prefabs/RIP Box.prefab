@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5900339694280273705}
   - component: {fileID: 5900339694280273704}
+  - component: {fileID: 4693634016447106219}
   - component: {fileID: 3635662818186242639}
   m_Layer: 0
   m_Name: RIP Box
@@ -80,6 +81,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4693634016447106219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5900339694280273707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82de736e2525c4fdbba6132f39b45e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 1424479989399107431, guid: 648bdf6ff943243bdb76b6997d120dfd,
+    type: 3}
 --- !u!61 &3635662818186242639
 BoxCollider2D:
   m_ObjectHideFlags: 0
