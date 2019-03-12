@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9193991935426779517}
   - component: {fileID: 5359754679724466159}
   - component: {fileID: 3678041784451126026}
+  - component: {fileID: 5076079235234413153}
   m_Layer: 0
   m_Name: dimekingPin1
   m_TagString: Untagged
@@ -119,3 +120,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb11b6f66be7bd84b8d20e7a0c706996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &5076079235234413153
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776185930957773106}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5a5d3d284206144f9595da5fb3c2585, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

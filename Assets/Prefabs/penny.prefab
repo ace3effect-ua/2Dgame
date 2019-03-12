@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3882844935279623556}
   - component: {fileID: 725190711493652268}
   - component: {fileID: 2153881738397486464}
+  - component: {fileID: 7733114003649874704}
   m_Layer: 0
   m_Name: penny
   m_TagString: Untagged
@@ -132,3 +133,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b537533b2234f73ae0963e89174f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7733114003649874704
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882844935279623552}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70dced7999f6e1d4a9fa8e33235bfc59, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
