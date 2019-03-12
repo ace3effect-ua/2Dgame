@@ -8,8 +8,8 @@ public class gameBoard : MonoBehaviour
     public GameObject pennyPrefab;
     public GameObject dimePrefab;
 
-    public GameObject pennyKingPinPrefab;
-    public GameObject dimeKingPinPrefab;
+    //public GameObject pennyKingPinPrefab;
+    //public GameObject dimeKingPinPrefab;
 
     private Vector3 boardOffset = new Vector3(-2.5f, -2.5f, 0.0f);
     private Vector3 dimeOffset = new Vector3(-1.5f, 4.5f, -7.0f); // just for placing the dimes
@@ -32,12 +32,8 @@ public class gameBoard : MonoBehaviour
                 //generate dimes
                 makeDime(x,y);
             }
-            //makeKing(x,y);
         }
     }
-    //void makeKing(int x, int y){
-
-    //}
 
     void makePiece(int x, int y){
 
