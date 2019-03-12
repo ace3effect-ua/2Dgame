@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Wbutton : MonoBehaviour
+public class Winner : MonoBehaviour
 {
-
-	public void StartButtonClicked() {
-		
-
+	void OnMouseDown() {
 		SceneManager.LoadScene( 2 );
-
 
 	}
 }
